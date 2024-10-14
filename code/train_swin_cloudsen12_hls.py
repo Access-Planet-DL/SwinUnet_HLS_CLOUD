@@ -449,7 +449,8 @@ if __name__=="__main__":
 
     metrics = [tf.keras.metrics.SparseCategoricalAccuracy()]
 
-    build_model.compile(optimizer=adam, loss='binary_crossentropy', metrics=[ "accuracy",f1_m])
+    loss = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+    build_model.compile(optimizer=adam, loss=loss, metrics=[ "accuracy",f1_m])
 
     #epoch=epoch+nth_epoch 
     nth_round=nth_round+1

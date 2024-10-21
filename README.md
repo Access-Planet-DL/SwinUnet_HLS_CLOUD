@@ -16,11 +16,11 @@ Please prepare an environment with TensorFlow 2.7 and Python 3.7.16.
   
 2. Unzip the pretrained model
    ```bash
-    unzip trained_model.zip
+   unzip trained_model.zip
    ```
 3. Run classification on the test data, modify the "inputdir" and "model_path" to the folders where the test data and the unzipped trained model are saved.
    ```bash
-     python hls_swin_cloud_shadow.py
+   python hls_swin_cloud_shadow.py
    ```
 
 It will replicate the examples shown in Figure 8 of the paper.

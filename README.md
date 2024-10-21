@@ -13,7 +13,7 @@ Please prepare an environment with TensorFlow 2.7 and Python 3.7.16.
    as the pre-trained model is >100MB, git-lfs is needed: https://github.com/git-lfs/git-lfs
 
    ```bash
-   git hub https://github.com/Access-Planet-DL/SwinUnet_HLS_CLOUD.git
+   git clone git@github.com:Access-Planet-DL/SwinUnet_HLS_CLOUD.git
    ```
   
 3. Unzip the pretrained model

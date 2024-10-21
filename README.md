@@ -4,21 +4,23 @@ The code is for the work titled 'A global Swin-Unet Sentinel-2 surface reflectan
 
 
 # Environment
-Please prepare an environment with TensorFlow 2.7 and Python 3.7.16. 
 
+Please prepare an environment with TensorFlow 2.7 and Python 3.7.16. 
 
 # steps
 
-1. Download the pre-trained model and test examples
+1. Download the pre-trained model and test examples.
+   as the pre-trained model is >100MB, git-lfs is needed: https://github.com/git-lfs/git-lfs
+
    ```bash
    git hub https://github.com/Access-Planet-DL/SwinUnet_HLS_CLOUD.git
    ```
   
-2. Unzip the pretrained model
+3. Unzip the pretrained model
    ```bash
    unzip trained_model.zip
    ```
-3. Run classification on the test data, modify the "inputdir" and "model_path" to the folders where the test data and the unzipped trained model are saved.
+4. Run classification on the test data, modify the "inputdir" and "model_path" to the folders where the test data and the unzipped trained model are saved.
    ```bash
    python hls_swin_cloud_shadow.py
    ```

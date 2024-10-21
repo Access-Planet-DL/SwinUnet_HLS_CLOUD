@@ -1,6 +1,6 @@
 # SwinUnet_hls_Cloud
 
-The code is for the work titled 'A global Swin-Unet Sentinel-2 surface reflectance-based cloud and shadow detection algorithm for the NASA Harmonized Landsat Sentinel-2 (HLS) dataset' It is an application of Swin-Unet for cloud and cloud shadow detection. Our paper has been submitted to the journal Science of Remote Sensing.
+The code is for the work titled 'A global Swin-Unet Sentinel-2 surface reflectance-based cloud and cloud shadow detection algorithm for the NASA Harmonized Landsat Sentinel-2 (HLS) dataset' It is an application of Swin-Unet for cloud and cloud shadow detection. Our paper has been submitted to the journal Science of Remote Sensing.
 
 
 # Environment
@@ -35,7 +35,7 @@ If you use this work, please cite it as:
 ```bibtex
 @unpublished{swinunet_hls_cloud_shadow_2024,
 author = {Haiyan Huang and David P. Roy and Hugo De Lemos and Yuean Qiu and Hankui K. Zhang},
-title = {A global Swin-Unet Sentinel-2 surface reflectance-based cloud and shadow detection algorithm for the NASA Harmonized Landsat Sentinel-2 (HLS) dataset},
+title = {A global Swin-Unet Sentinel-2 surface reflectance-based cloud and cloud shadow detection algorithm for the NASA Harmonized Landsat Sentinel-2 (HLS) dataset},
 note = {Manuscript submitted for publication},
 year = {2024},
 journal = {Science of Remote Sensing}

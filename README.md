@@ -10,12 +10,18 @@ Please prepare an environment with TensorFlow 2.7 and Python 3.7.16.
 # steps
 
 1. Download the pre-trained model and test examples
-   https://github.com/Access-Planet-DL/SwinUnet_HLS_CLOUD.git
+   ```bash
+   git hub https://github.com/Access-Planet-DL/SwinUnet_HLS_CLOUD.git
+   ```
   
 2. Unzip the pretrained model
-     trained_model.zip 
+   ```bash
+    unzip trained_model.zip
+   ```
 3. Run classification on the test data, modify the "inputdir" and "model_path" to the folders where the test data and the unzipped trained model are saved.
+   ```bash
      python hls_swin_cloud_shadow.py
+   ```
 
 It will replicate the examples shown in Figure 8 of the paper.
 
